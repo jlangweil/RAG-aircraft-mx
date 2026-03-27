@@ -78,7 +78,7 @@ Copy your scanned maintenance work order PDFs into `data/raw_pdfs/`.
 ### 6. Extract text from PDFs
 
 ```bash
-python vision_extract.py
+python extract.py
 ```
 
 This uses Claude vision to extract text from scanned/handwritten PDFs. Output lands in `output/vision_extract/`.
