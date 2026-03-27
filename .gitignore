@@ -1,0 +1,28 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Data — never commit real maintenance records
+data/raw_pdfs/
+data/split_pages/
+data/vision_test_page.jpg
+
+# Extracted, cleaned, and vision output — contains club data
+output/extracted_text/
+output/cleaned_text/
+output/vision_extract/
+
+# FAISS index — rebuilt from source docs
+output/faiss_index/
+
+# VS Code
+.vscode/
